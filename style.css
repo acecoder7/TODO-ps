@@ -36,4 +36,60 @@ form button {
     background: #ff6f47;
     color: #fff;
     margin-left: 1rem;
+    cursor: pointer;
 }
+
+.todo-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list {
+    list-style: none;
+    min-width: 30vw;
+}
+
+@media screen and (max-width: 600px ){
+    .todo-list {
+        min-width: 80vw;
+    }
+}
+
+.todo {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    margin: 0.5rem;
+    background: #fff;
+    color: #222;
+    gap: 10px;
+}
+
+.todo li {
+    padding: 0.5rem;
+}
+
+.todo .todo-btn-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.todo button{
+    cursor: pointer;
+    height: 100%;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.trash-btn, .complete-btn {
+    background: #ff6f47;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.complete-btn {
+    background: rgb(11,212,162);
+}
+
