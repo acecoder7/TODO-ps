@@ -3,3 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(260deg, #e6bb30, #f5967c);
+    min-height: 100vh;
+    color: #fff;
+}
+
+header{
+    font-size: 2rem;    
+    text-align: center;
+    padding: 3rem 0rem;
+}
+
+form {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 20vh;
+}
+
+form input, form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: 0px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+form button {
+    background: #ff6f47;
+    color: #fff;
+    margin-left: 1rem;
+}
